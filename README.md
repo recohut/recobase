@@ -1,1 +1,1 @@
-# reco-tutorial-base
+# Recommendation System Platform
