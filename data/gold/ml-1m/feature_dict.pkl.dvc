@@ -1,0 +1,4 @@
+outs:
+- md5: 1a0913b63f014c709978c01f0765aaab
+  size: 287571
+  path: feature_dict.pkl
