@@ -14,3 +14,17 @@ stages:
       md5: 06676bf10661c9f231027a2ca0715450.dir
       size: 3167132
       nfiles: 1
+  negative_sampling:
+    cmd: python src/negative_sampling.py
+    deps:
+    - path: data/silver/ml-1m/dataset.pkl
+      md5: 8562c4ea047f847a78a46ab3dce58bcd
+      size: 3167132
+    - path: src/negative_sampling.py
+      md5: b5787afa5eb1999fa86d66732cf53afe
+      size: 5866
+    outs:
+    - path: data/gold/ml-1m/negative_samples
+      md5: 88fee17715b501f9e3580d9031307e38.dir
+      size: 25489851
+      nfiles: 1

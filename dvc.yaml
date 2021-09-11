@@ -6,3 +6,10 @@ stages:
     - src/preprocess.py
     outs:
     - data/silver/ml-1m
+  negative_sampling:
+    cmd: python src/negative_sampling.py
+    deps:
+    - data/silver/ml-1m/dataset.pkl
+    - src/negative_sampling.py
+    outs:
+    - data/gold/ml-1m/negative_samples
