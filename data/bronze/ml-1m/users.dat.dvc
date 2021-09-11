@@ -1,0 +1,11 @@
+md5: 74e6ac756d76922e9649b13b3ec571cd
+frozen: true
+deps:
+- path: ml1m/v0/users.dat
+  repo:
+    url: https://github.com/sparsh-ai/reco-data
+    rev_lock: 3e25c63df22ab4241d27c53d409ba7bee5a8fbd7
+outs:
+- md5: 681c0711d0d4548cd3d4718a49c2dcd8
+  size: 134368
+  path: users.dat
