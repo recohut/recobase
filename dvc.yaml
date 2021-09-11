@@ -6,3 +6,10 @@ stages:
     - src/preprocess_dialogs.py
     outs:
     - data/silver/dialog_data/parsed_dialogs
+  prepare_sentences:
+    cmd: python src/prepare_sentences.py
+    deps:
+    - data/silver/dialog_data/parsed_dialogs/training_data_parsed_con.txt
+    - src/prepare_sentences.py
+    outs:
+    - data/gold/dialog_data/dialog_sentences
