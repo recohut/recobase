@@ -28,3 +28,20 @@ stages:
       md5: 88fee17715b501f9e3580d9031307e38.dir
       size: 25489851
       nfiles: 1
+  data_loading:
+    cmd: python src/data_loading.py
+    deps:
+    - path: data/gold/ml-1m/negative_samples/negative_samples_val.pkl
+      md5: 930ae55228423ad7072cdf931fbe6997
+      size: 25489851
+    - path: data/silver/ml-1m/dataset.pkl
+      md5: 8562c4ea047f847a78a46ab3dce58bcd
+      size: 3167132
+    - path: src/data_loading.py
+      md5: 4814547aa21f5c451434f9959bfff870
+      size: 9863
+    outs:
+    - path: data/gold/ml-1m/dataloaders
+      md5: 9e1bf04a06c75667177a74cff3efc998.dir
+      size: 85417869
+      nfiles: 3
