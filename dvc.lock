@@ -1,0 +1,16 @@
+schema: '2.0'
+stages:
+  preprocess:
+    cmd: python src/preprocess.py
+    deps:
+    - path: data/bronze/ml-1m/ratings.dat
+      md5: a89aa3591bc97d6d4e0c89459ff39362
+      size: 24594131
+    - path: src/preprocess.py
+      md5: 48abc2aaab2b0486877240fd0bcabe47
+      size: 4565
+    outs:
+    - path: data/silver/ml-1m
+      md5: 06676bf10661c9f231027a2ca0715450.dir
+      size: 3167132
+      nfiles: 1

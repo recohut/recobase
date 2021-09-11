@@ -1,0 +1,8 @@
+stages:
+  preprocess:
+    cmd: python src/preprocess.py
+    deps:
+    - data/bronze/ml-1m/ratings.dat
+    - src/preprocess.py
+    outs:
+    - data/silver/ml-1m
