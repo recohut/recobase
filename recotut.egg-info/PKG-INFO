@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: recotut
+Version: 0.0.1
+Summary: RecSys package
+Home-page: https://github.com/sparsh-ai
+Author: Sparsh Agarwal
+Author-email: recohut@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Recommendation Systems
+Provides-Extra: plotting
+License-File: LICENSE
+
+UNKNOWN
+

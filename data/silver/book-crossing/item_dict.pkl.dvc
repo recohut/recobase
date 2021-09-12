@@ -1,0 +1,4 @@
+outs:
+- md5: 3369881eec51ee5eda464dc9b726f175
+  size: 3460806
+  path: item_dict.pkl

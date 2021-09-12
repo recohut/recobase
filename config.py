@@ -1,0 +1,1 @@
+RAW_DATASET_ROOT_FOLDER = 'data/bronze'
