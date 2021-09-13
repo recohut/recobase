@@ -1,0 +1,4 @@
+outs:
+- md5: 9b822cae1d01f41e8bf8782e20367c0e
+  size: 5000
+  path: ind.cora.test.index

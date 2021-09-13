@@ -1,0 +1,4 @@
+outs:
+- md5: b37c419cec179f45834467630c278e4c
+  size: 59847
+  path: ind.cora.graph

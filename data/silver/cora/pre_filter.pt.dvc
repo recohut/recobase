@@ -1,0 +1,4 @@
+outs:
+- md5: b58d808d618a1b7a14d489e73caf6ec5
+  size: 157
+  path: pre_filter.pt
