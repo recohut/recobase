@@ -1,0 +1,8 @@
+{
+  "tests/test_datasets.py::TestCase": true, 
+  "tests/test_datasets.py::TestDatasets": true, 
+  "tests/test_datasets.py::TestDatasets::testML1MDataset": true, 
+  "tests/test_metrics.py": true, 
+  "tests/test_metrics.py::TestCase": true, 
+  "tests/test_metrics.py::TestMetrics": true
+}
