@@ -28,3 +28,13 @@ stages:
     - src/negative_sampling.py
     outs:
     - data/gold/ml-1m/negative_samples
+  data_loading:
+    cmd: python src/data_loading.py
+    deps:
+    - data/gold/ml-1m/negative_samples/negative_samples_val.pkl
+    - data/silver/ml-1m/dataset.pkl
+    - src/data_loading.py
+    outs:
+    - data/gold/ml-1m/dataloaders
+=======
+    - data/gold/ml-1m/negative_samples
