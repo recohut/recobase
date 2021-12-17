@@ -1,4 +1,19 @@
 stages:
+  preprocess_dialogs:
+    cmd: python src/preprocess_dialogs.py
+    deps:
+    - data/bronze/dialog_data/unparsed_train_data.txt
+    - src/preprocess_dialogs.py
+    outs:
+    - data/silver/dialog_data/parsed_dialogs
+  prepare_sentences:
+    cmd: python src/prepare_sentences.py
+    deps:
+    - data/silver/dialog_data/parsed_dialogs/training_data_parsed_con.txt
+    - src/prepare_sentences.py
+    outs:
+    - data/gold/dialog_data/dialog_sentences
+=======
   preprocess:
     cmd: python src/preprocess.py
     deps:
